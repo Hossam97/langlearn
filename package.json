@@ -1,0 +1,37 @@
+{
+  "name": "langlearn-backend",
+  "version": "1.0.0",
+  "description": "The NodeJS backend project of LangLearn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langlearn24/langlearn-backend.git"
+  },
+  "author": "LangLearn team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langlearn24/langlearn-backend/issues"
+  },
+  "homepage": "https://github.com/langlearn24/langlearn-backend#readme",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "phone": "^3.1.43",
+    "twilio": "^5.0.4",
+    "validator": "^13.11.0"
+  }
+}
